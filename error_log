@@ -1,0 +1,16 @@
+[17-Sep-2017 16:05:05 UTC] PHP Fatal error:  Cannot redeclare forest_scripts() (previously declared in /home/miraijvc/public_html/wp-content/themes/forest/functions.php:167) in /home/miraijvc/public_html/wp-content/themes/forest/framework/admin_modules/register_styles.php on line 6
+[09-Oct-2017 02:33:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/miraijvc/public_html/wp-content/themes/forest/page-53.php on line 67
+[16-Oct-2017 07:56:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __e() in /home/miraijvc/public_html/wp-content/themes/forest/page-53.php:18
+Stack trace:
+#0 /home/miraijvc/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/miraijvc/public_html/wp-blog-header.php(19): require_once('/home/miraijvc/...')
+#2 /home/miraijvc/public_html/index.php(17): require('/home/miraijvc/...')
+#3 {main}
+  thrown in /home/miraijvc/public_html/wp-content/themes/forest/page-53.php on line 18
+[16-Oct-2017 07:56:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __e() in /home/miraijvc/public_html/wp-content/themes/forest/page-53.php:18
+Stack trace:
+#0 /home/miraijvc/public_html/wp-includes/template-loader.php(74): include()
+#1 /home/miraijvc/public_html/wp-blog-header.php(19): require_once('/home/miraijvc/...')
+#2 /home/miraijvc/public_html/index.php(17): require('/home/miraijvc/...')
+#3 {main}
+  thrown in /home/miraijvc/public_html/wp-content/themes/forest/page-53.php on line 18

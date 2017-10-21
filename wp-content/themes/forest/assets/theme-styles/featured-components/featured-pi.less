@@ -1,0 +1,59 @@
+#featured-pi {
+	overflow: auto;
+	margin-bottom: 20px;
+	.featured-thumb {
+		position: relative;
+		overflow: hidden;
+	}
+	
+	h2 {
+		position: absolute;
+		top: 50%;
+		width: 100%;
+		text-align: center;
+		padding: 0 20px;
+		.transform(translateY(-50%));
+		margin: 0;
+		text-transform: uppercase;
+		color: fade(white,80%);
+		text-shadow: 1px 1px 1px fade(black,20%);
+		font-size: 18px;
+		font-weight: normal;
+		line-height: 1.4em;
+		z-index: 110;
+		pointer-events: none;
+	}
+	
+	img {
+		filter: brightness(0.9);
+	}
+	
+	.pi-wrapper {
+		padding: 5px;
+		overflow: hidden;
+		&:before {
+			content: "";
+			position: absolute;
+			top: 20px;
+			bottom: 20px;
+			left: 20px;
+			right: 20px;
+			border: solid 2px white;
+			background: fade(black, 50%);
+			z-index: 100;
+			pointer-events: none;
+			.transform(scale(1.5));
+			opacity: 0;
+			.transition(0.4s all ease);
+		}
+		&:hover {
+			h2 {
+				
+			}
+			&:before {
+				.transform(scale(1));
+				opacity: 1;
+			}
+		}
+	}	
+}
